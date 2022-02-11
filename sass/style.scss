@@ -1,0 +1,192 @@
+$font1: "Montserrat Alternates", sans-serif;
+$font2: "Poppins", sans-serif;
+
+.head {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  font-family: $font1;
+  border-bottom: 2px black;
+
+  div {
+    color: green;
+    align-self: center;
+    padding-right: 100px;
+  }
+
+  ul {
+    list-style-type: none;
+    display: flex;
+    width: 700px;
+    justify-content: space-between;
+    padding-left: 100px;
+    align-self: center;
+    align-items: center;
+  }
+  img {
+    border-radius: 30px;
+  }
+}
+
+.payinfo-line {
+  display: flex;
+  justify-content: space-between;
+
+  div {
+    padding-left: 20px;
+  }
+  h4 {
+    font-family: $font1;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  p {
+    font-family: $font1;
+    font-size: 10px;
+    margin-top: -15px;
+  }
+}
+.icons {
+  justify-content: space-between;
+  width: 300px;
+  align-self: center;
+  display: flex;
+  padding-right: 20px;
+}
+
+.atm-card{
+background-image: linear-gradient(to right, #ff4f84 20%, #844fff);
+width: 500px;
+border-radius: 20px;
+padding: 20px;
+margin-top: 20px;
+
+h2{
+    font-family: $font2;  
+    font-size: 25px; 
+    font-weight: 900;
+}
+
+.crdnmb-chip{
+    display: flex;
+    justify-content: space-between;
+    width: 450px;
+
+    h5{
+    margin-bottom: 2px;
+    font-size: 15px;
+    }
+    p{
+        font-size: 20px;
+        border-bottom: 2px dotted;
+        width: 200px;
+        color: #a9a9a9;
+        justify-content: space-evenly;
+    }
+
+    img{
+      padding-top: 20px;
+    }
+}
+.exp-cvv{
+    display: flex;
+    justify-content: space-between;
+    width:400px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    height: 60px;
+}
+.mastercard{
+    padding-top: 15px;
+    width: 20px;
+}
+    h5{
+        margin-bottom: 2px;
+        font-size: 15px;
+    }
+}
+
+.section-one{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.info-card{
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+
+    label{
+        margin-bottom: -10px;
+    }
+
+    input{
+        width: 350px;
+        height: 40px;
+        border-radius: 5px;
+        padding-left: 10px;
+        background-color: #dad8d8;
+        border: 2px solid #A9A9A9;
+        margin-bottom: 35px;
+    }
+    label{
+        font-size: 20px;
+        font-weight: 400;
+        color: rgba(3, 3, 3, 0.5);
+        display: block;
+    }
+
+}
+.btn p{
+    color: rgba(3, 3, 3, 0.5);
+    font-size: 14px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    margin-top: -2px;
+    margin-bottom: 20px;
+}
+.btn-add {
+    background-color: royalblue;
+    width: 800px;
+    height: 50px;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 800;
+}
+
+.btn-add:hover{
+background-color: silver;
+cursor: pointer;
+color: black;
+}
+.sec3-table{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-spacing: 7px;
+    color:#423A4B;
+
+    td{
+        font-family: $font2;
+    }
+}
+.sec4-table{
+    margin-top: 15px;
+    margin-bottom: 30px;
+    color:#423A4B;
+
+    button{
+        background: #0079c1;
+        border-radius: 5px;
+        border: 1px solid #0079c1;
+        padding: 1em 2em;
+        min-width: 100%;
+        cursor: pointer;
+        font-size: 14px;
+        color: white;
+        min-width: 10%;
+    }
+}
+
+
+    
+ 
