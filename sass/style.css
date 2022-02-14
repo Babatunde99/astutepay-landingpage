@@ -236,4 +236,8 @@
   color: white;
   min-width: 10%;
 }
+
+.left {
+  text-align: end;
+}
 /*# sourceMappingURL=style.css.map */
